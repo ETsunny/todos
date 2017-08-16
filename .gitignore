@@ -1,3 +1,4 @@
 .idea/*
 __pycache__
 log.gua.txt
+data/Todo.txt
