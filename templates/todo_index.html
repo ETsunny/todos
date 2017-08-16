@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>TO</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+        .icon-block {
+            padding: 0 15px;
+        }
+
+        .icon-block .material-icons {
+            font-size: inherit;
+        }
+
+        .complete {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <br><br>
+        <h1 class="header center orange-text">todos</h1>
+        <div class="row center">
+
+            <div class="col s12">
+                <div class="input-field inline">
+                    <input id='id-input-todo' type="text" class="validate">
+                    <label for="id-input-todo">What needs to be done?</label>
+                </div>
+                <a id='id-button-add' class="btn-floating btn-large waves-effect waves-light red">
+                    <i class="material-icons">add</i>
+                </a>
+            </div>
+
+
+            <table class="col s4 offset-s4 centered striped">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Task</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+
+                <tbody class="todo-list">
+
+                </tbody>
+            </table>
+
+        </div>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="section">
+
+
+    </div>
+    <br><br> <br><br> <br><br>
+</div>
+
+<footer class="page-footer orange">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">项目介绍</h5>
+                <p class="grey-text text-lighten-4">本例是一个完全和规范一致的 TodoMVC
+                    实现，后端只用了socket库实现web框架。前端只使用原生javascript封装ajax。</p>
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">ETsunny's Blog</a></li>
+                    <li><a class="white-text" href="#!">ETsunny's Github</a></li>
+                    <li><a class="white-text" href="#!">ETsunny's Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">ETsunny</a>
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+<script src='/static?file=gua.js'></script>
+<script src='/static?file=todo.js'></script>
+<script>
+
+</script>
+
+</body>
+</html>
