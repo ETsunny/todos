@@ -1,0 +1,7 @@
+server {
+    listen 80;
+    location / {
+        server_name www.lab.etsunny.com;
+        proxy_pass http://localhost:2001;
+    }
+}
